@@ -1,14 +1,14 @@
 # Repo-specific GitIgnore ----------------------------------------------------------------------------------------------
 *.jpg
 *.jpeg
-*.png
+# *.png
 *.bmp
 *.tif
 *.tiff
 *.heic
 *.JPG
 *.JPEG
-*.PNG
+# *.PNG
 *.BMP
 *.TIF
 *.TIFF
@@ -26,11 +26,11 @@
 storage.googleapis.com
 runs/*
 data/*
-data/images/*
+# data/images/*
 !data/*.yaml
 !data/hyps
 !data/scripts
-!data/images
+# !data/images
 !data/images/zidane.jpg
 !data/images/bus.jpg
 !data/*.sh
