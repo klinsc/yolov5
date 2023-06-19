@@ -1,0 +1,63 @@
+# YOLOv5 🚀 by Ultralytics, AGPL-3.0 license
+# COCO128 dataset https://www.kaggle.com/ultralytics/coco128 (first 128 images from COCO train2017) by Ultralytics
+# Example usage: python train.py --data coco128.yaml
+# parent
+# ├── yolov5
+# └── datasets
+#     └── coco128  ← downloads here (7 MB)
+
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: ../datasets/rpod5  # dataset root dir
+train: images  # train images (relative to 'path') 128 images
+val: images  # val images (relative to 'path') 128 images
+test:  # test images (optional)
+
+# Classes
+names:
+  0: 11522_tx_dyn1
+  1: 11522_tx_ynyn0d1
+  2: 115_1way_ds_w_motor
+  3: 115_3ways_ds_w_motor
+  4: 115_breaker
+  5: 115_buffer
+  6: 115_cvt_1p
+  7: 115_cvt_3p
+  8: 115_ds
+  9: 115_gs
+  10: 115_gs_w_motor
+  11: 115_la
+  12: 115_vt_1p
+  13: 115_vt_3p
+  14: 22_breaker
+  15: 22_cap_bank
+  16: 22_ds
+  17: 22_ds_la_out
+  18: 22_ds_out
+  19: 22_gs
+  20: 22_ll
+  21: 22_vt_1p
+  22: 22_vt_3p
+  23: BCU
+  24: DIM
+  25: DPM
+  26: LL
+  27: NGR
+  28: NGR_future
+  29: Q
+  30: ground
+  31: relays
+  32: remote_io_module
+  33: 'ss_auto_mode'
+  34: 'ss_man_mode'
+  35: sync_auto_25
+  36: sync_manual_bus
+  37: tele_protection
+  38: terminator_double
+  39: terminator_single
+  40: terminator_w_future
+  41: v_m
+  42: v_m_digital
+
+# Download script/URL (optional)
+download: https://ultralytics.com/assets/coco128.zip
