@@ -58,6 +58,3 @@ names:
   40: terminator_w_future
   41: v_m
   42: v_m_digital
-
-# Download script/URL (optional)
-download: https://ultralytics.com/assets/coco128.zip
