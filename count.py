@@ -74,7 +74,8 @@ def save_class_count(class_count, classes, save_path):
 
 def save_class_as_yaml(class_count, classes, save_path):
     with open(os.path.join(save_path, 'classes.yaml'), 'w') as f:
-        f.write('path: ./datasets/rpod6  # dataset root dir\n')
+        # f.write('path: ./datasets/rpod6  # dataset root dir\n')
+        f.write(f'path: {save_path}  # dataset root dir\n')
         f.write('train: images  # train images (relative to \'path\') 128 images\n')
         f.write('val: images  # val images (relative to \'path\') 128 images\n')
         f.write('test:  # test images (optional)\n')

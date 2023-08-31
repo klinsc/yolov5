@@ -1,0 +1,45 @@
+path: ./datasets/asdr6_2  # dataset root dir
+train: images  # train images (relative to 'path') 128 images
+val: images  # val images (relative to 'path') 128 images
+test:  # test images (optional)
+
+# Classes
+names:
+  0: 11522_tx_dyn1
+  1: 11522_tx_ynyn0d1
+  2: 115_1way_ds_w_motor
+  3: 115_3ways_ds_w_motor
+  4: 115_breaker
+  5: 115_buffer
+  6: 115_cvt_1p
+  7: 115_cvt_3p
+  8: 115_ds
+  9: 115_gs
+  10: 115_gs_w_motor
+  11: 115_la
+  12: 115_vt_1p
+  13: 115_vt_3p
+  14: 22_breaker
+  15: 22_cap_bank
+  16: 22_ds
+  17: 22_ds_la_out
+  18: 22_ds_out
+  19: 22_gs
+  20: 22_ll
+  21: 22_vt_3p
+  22: BCU
+  23: DIM
+  24: DPM
+  25: LL
+  26: MU
+  27: NGR_future
+  28: Q
+  29: remote_io_module
+  30: ss_man_mode
+  31: tele_protection
+  32: terminator_double
+  33: terminator_single
+  34: terminator_splicing_kits
+  35: terminator_w_future
+  36: v_m
+  37: v_m_digital
