@@ -23,23 +23,22 @@ names:
   15: 22_cap_bank
   16: 22_ds
   17: 22_ds_la_out
-  18: 22_ds_out
-  19: 22_gs
-  20: 22_ll
-  21: 22_vt_3p
-  22: BCU
-  23: DIM
-  24: DPM
-  25: LL
-  26: MU
-  27: NGR_future
-  28: Q
-  29: remote_io_module
-  30: ss_man_mode
-  31: tele_protection
-  32: terminator_double
-  33: terminator_single
-  34: terminator_splicing_kits
-  35: terminator_w_future
-  36: v_m
-  37: v_m_digital
+  18: 22_gs
+  19: 22_ll
+  20: 22_vt_3p
+  21: BCU
+  22: DIM
+  23: DPM
+  24: LL
+  25: MU
+  26: NGR_future
+  27: Q
+  28: remote_io_module
+  29: ss_man_mode
+  30: tele_protection
+  31: terminator_double
+  32: terminator_single
+  33: terminator_splicing_kits
+  34: terminator_w_future
+  35: v_m
+  36: v_m_digital

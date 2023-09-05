@@ -16,7 +16,6 @@
 22_cap_bank
 22_ds
 22_ds_la_out
-22_ds_out
 22_gs
 22_ll
 22_vt_3p
